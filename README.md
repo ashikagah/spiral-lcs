@@ -2,7 +2,7 @@
 
 The original paper is [here](http://aip.scitation.org/doi/full/10.1063/1.4973542).
 
-## Citation
+## How to cite
 
 Please cite the following paper when you use the code in this repo:
 
