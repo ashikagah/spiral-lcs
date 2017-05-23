@@ -47,7 +47,7 @@ In MATLAB command window,
 ```
 >> lagrangian_analysis
 ```
-It shows 
+It shows the forward trajectory of information flow and the Lagrangian coherent structures in an Lagrangian perspective.
 
 ## Spatial domain
 - Matrix size: 120 x 120
