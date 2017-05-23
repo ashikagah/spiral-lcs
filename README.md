@@ -22,14 +22,14 @@ $ git clone https://github.com/ashikagah/spiral-lcs
 
 ## Usage
 
-1. Generate time series of spiral waves
+1. Generate time series of spiral waves and information flow
 
 In MATLAB command window, 
 
 ```
 >> generate_data
 ```
-It uses the function `rm_spirals.m` to create random stimulations to induce four spiral waves in a 2-D lattice. It uses a stimulation file `s4_stim.mat`. It saves the time series of the excitation variable (_ts_) in a file `orig60.mat` and its binarized time series in a file `bi60.mat`. 
+It uses the function `rm_spirals.m` to create random stimulations to induce four spiral waves in a 2-D lattice. It uses a stimulation file `s4_stim.mat`. It saves the time series of the excitation variable (_ts_) in a file `orig60.mat` and its binarized time series in a file `bi60.mat`. It also creates and saves the time series of information flow [uo, vo].
 
 2. Convert to phase map
 
