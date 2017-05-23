@@ -58,4 +58,4 @@ It shows the forward trajectory of information flow and the Lagrangian coherent 
 MIT
 
 ## References
-1. Lizier JT. JIDT: An information-theoretic toolkit for studying the dynamics of complex systems. _Frontiers in Robotics and AI_ 1:11, 2014 [web](https://journal.frontiersin.org/article/10.3389/frobt.2014.00011/full)
+1. Lizier JT. JIDT: An information-theoretic toolkit for studying the dynamics of complex systems. _Frontiers in Robotics and AI_ 1:11, 2014 [html](https://journal.frontiersin.org/article/10.3389/frobt.2014.00011/full)
