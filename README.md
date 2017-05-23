@@ -38,6 +38,7 @@ In MATLAB command window,
 ```
 >> eulerian_analysis
 ```
+It shows Shannon entropy, instantaneous information flow and total information flow over time, all in an Eulerian perspective.  
 
 3. Lagrangian analysis
 
@@ -46,6 +47,7 @@ In MATLAB command window,
 ```
 >> lagrangian_analysis
 ```
+It shows 
 
 ## Spatial domain
 - Matrix size: 120 x 120
