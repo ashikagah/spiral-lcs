@@ -4,6 +4,8 @@ The original paper is [here](http://aip.scitation.org/doi/full/10.1063/1.4973542
 
 ## Citation
 
+Please cite the following paper when you use the code in this repo:
+
 Ashikaga H and James RG. Hidden structures of information transport underlying spiral wave dynamics. _Chaos_ 27: 013106, 2017
 
 ## Installation
@@ -12,7 +14,6 @@ Clone the github repository.
 ```
 $ git clone https://github.com/ashikagah/spiral-lcs
 ```
-
 ## Dependencies
 
 1. Function `rm_spirals.m` from [Rogers-McCulloch repo](https://github.com/ashikagah/Rogers-McCulloch).
