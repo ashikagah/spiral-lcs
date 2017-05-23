@@ -22,17 +22,14 @@ $ git clone https://github.com/ashikagah/spiral-lcs
 
 ## Usage
 
+1. Generate time series of spiral waves
+
 In MATLAB command window, 
 
 ```
->> cd Rogers-McCulloch
->> demo
+>> generate_data
 ```
-The demo script will:
-
-1. Generate spiral waves
-
-The function `rm_spirals.m` is a MATLAB implementation of the Rogers-McCulloch model in two dimensions (2-D). The function will create random stimulations to induce (usually multiple) spiral waves in a 2-D lattice. It will save the time series of the excitation variable (_ts_) in a file `orig.mat` and a movie file `orig_movie.avi`. There is an option to save a stimulation data file `stim.mat`.
+It will use the function `rm_spirals.m` to create random stimulations to induce (usually multiple) spiral waves in a 2-D lattice. It will save the time series of the excitation variable (_ts_) in a file `orig60.mat` and its binarized time series in a file `bi60.mat`. 
 
 2. Convert to phase map
 
