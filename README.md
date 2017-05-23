@@ -31,7 +31,7 @@ In MATLAB command window,
 ```
 It uses the function `rm_spirals.m` to create sequential stimulations according to the stimulation file `s4_stim.mat` to induce four spiral waves in a 2-D lattice. It saves the time series of the excitation variable (_ts_) in a file `orig60.mat` and its binarized time series in a file `bi60.mat`. It also creates and saves the time series of information flow [uo, vo] in a file `uvo60.mat`. The whole process will take several hours, depending on the system used.
 
-2. Eulerian analysis
+2. Perform Eulerian analysis of information flow
 
 In MATLAB command window, 
 
@@ -40,7 +40,7 @@ In MATLAB command window,
 ```
 It shows Shannon entropy, instantaneous information flow and total information flow over time, all in an Eulerian perspective.  
 
-3. Lagrangian analysis
+3. Perform Lagrangian analysis of information flow
 
 In MATLAB command window, 
 
