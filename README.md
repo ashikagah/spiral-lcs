@@ -29,7 +29,7 @@ In MATLAB command window,
 ```
 >> generate_data
 ```
-It will use the function `rm_spirals.m` to create random stimulations to induce (usually multiple) spiral waves in a 2-D lattice. It will save the time series of the excitation variable (_ts_) in a file `orig60.mat` and its binarized time series in a file `bi60.mat`. 
+It uses the function `rm_spirals.m` to create random stimulations to induce four spiral waves in a 2-D lattice. It uses a stimulation file `s4_stim.mat`. It saves the time series of the excitation variable (_ts_) in a file `orig60.mat` and its binarized time series in a file `bi60.mat`. 
 
 2. Convert to phase map
 
