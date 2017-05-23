@@ -29,37 +29,31 @@ In MATLAB command window,
 ```
 >> generate_data
 ```
-It uses the function `rm_spirals.m` to create random stimulations to induce four spiral waves in a 2-D lattice. It uses a stimulation file `s4_stim.mat`. It saves the time series of the excitation variable (_ts_) in a file `orig60.mat` and its binarized time series in a file `bi60.mat`. It also creates and saves the time series of information flow [uo, vo].
+It uses the function `rm_spirals.m` to create sequential stimulations according to the stimulation file `s4_stim.mat` to induce four spiral waves in a 2-D lattice. It saves the time series of the excitation variable (_ts_) in a file `orig60.mat` and its binarized time series in a file `bi60.mat`. It also creates and saves the time series of information flow [uo, vo] in a file `uvo60.mat`. The whole process will take several hours, depending on the system used.
 
-2. Convert to phase map
+2. Eulerian analysis
 
-The function `phase_map.m` will map the excitation variable (_ts_) to phase [-pi, pi] using Hilbert transform. It will save the time series of the phase (_p_) in a file `phase.mat` and a movie file `phase_movie.avi`.
+In MATLAB command window, 
 
-3. Identify phase singularities
+```
+>> eulerian_analysis
+```
 
-The function `phase_singularity.m` will detect the phase singularities (= rotors) using topological charge. It will save the time series of the phase singularities (_ps_) in a file `singularity.mat` and a movie file `singularity_movie.avi`.
+3. Lagrangian analysis
 
-## Variables
-The Rogers-McCulloch model involves two normalized state variables:
-- **_v_**: excitation variable (~ transmembrane potential)
-- _**r**_: relaxation variable 
+In MATLAB command window, 
+
+```
+>> lagrangian_analysis
+```
 
 ## Spatial domain
 - Matrix size: 120 x 120
 - Grid spacing: 0.99 mm
 - Grid size: 11.9 x 11.9 cm
 
-## Numerical solution
-Model equations are solved using a finite difference method for spatial derivatives and explicit Euler integration for time derivatives. Newman boundary conditions are assumed. 
-
 ## Licence
 MIT
 
 ## References
-1. Rogers JM and McCulloch AD. A collocation-Galerkin finite element model of cardiac action potential propagation. _IEEE Trans Biomed Eng_ 41: 743-57, 1994
-2. Bray MA and Wikswo JP. Use of topological charge to determine filament location and dynamics in a numerical model of scroll wave activity. _IEEE Trans Biomed Eng_ 49: 1086-93, 2002
-3. Hammer P. Spiral waves in monodomain reaction-diffusion model. [MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/22492-spiral-waves-in-monodomain-reaction-diffusion-model)
-4. Spottiswoode BS. 2D phase unwrapping algorithms. [MATLAB File Exchange](http://www.mathworks.com/matlabcentral/fileexchange/22504-2d-phase-unwrapping-algorithms?focused=5111677&tab=function)
-5. Atienza FA et al., A probabilistic model of cardiac electrical activity based on a cellular automata system. _Rev Esp Cardiol_ 58:41-7, 2005
-
-
+1. Lizier JT. JIDT: An information-theoretic toolkit for studying the dynamics of complex systems. _Frontiers in Robotics and AI_ 1:11, 2014 [web](https://journal.frontiersin.org/article/10.3389/frobt.2014.00011/full)
