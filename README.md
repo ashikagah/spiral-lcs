@@ -16,9 +16,11 @@ $ git clone https://github.com/ashikagah/spiral-lcs
 ```
 ## Dependencies
 
-1. Function `rm_spirals.m`, a MATLAB implementation of the Rogers-McCulloch model in two dimensions (2-D) from [Rogers-McCulloch repo](https://github.com/ashikagah/Rogers-McCulloch).
+1. MATLAB - Tested in version 2017a OSX 10.12.5 Sierra
 
-2. Java Information Dynamics Toolkit [JIDT](https://github.com/jlizier/jidt/wiki/Installation).
+2. Function `rm_spirals.m`, a MATLAB implementation of the Rogers-McCulloch model in two dimensions (2-D) from [Rogers-McCulloch repo](https://github.com/ashikagah/Rogers-McCulloch).
+
+3. Java Information Dynamics Toolkit [JIDT](https://github.com/jlizier/jidt/wiki/Installation) > v1.3.1
 
 ## Usage
 
