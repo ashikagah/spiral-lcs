@@ -2,18 +2,14 @@
 
 The original paper is [here](http://aip.scitation.org/doi/full/10.1063/1.4973542).
 
+
 ## How to cite
 
 Please cite the following paper when you use the code in this repo:
 
 Ashikaga H and James RG. Hidden structures of information transport underlying spiral wave dynamics. _Chaos_ 27: 013106, 2017
 
-## Installation
 
-Clone the github repository.
-```
-$ git clone https://github.com/ashikagah/spiral-lcs
-```
 ## Dependencies
 
 1. MATLAB - Tested in MATLAB version 2017a with OSX 10.12.5 Sierra
@@ -21,6 +17,14 @@ $ git clone https://github.com/ashikagah/spiral-lcs
 2. Function `rm_spirals.m`, a MATLAB implementation of the Rogers-McCulloch model in two dimensions (2-D) from [Rogers-McCulloch repo](https://github.com/ashikagah/Rogers-McCulloch).
 
 3. Java Information Dynamics Toolkit [JIDT](https://github.com/jlizier/jidt/wiki/Installation) > v1.3.1
+
+## Installation
+
+Clone the github repository.
+```
+$ git clone https://github.com/ashikagah/spiral-lcs
+```
+
 
 ## Usage
 
