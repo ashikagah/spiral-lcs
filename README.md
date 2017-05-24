@@ -16,7 +16,7 @@ $ git clone https://github.com/ashikagah/spiral-lcs
 ```
 ## Dependencies
 
-1. MATLAB - Tested in version 2017a OSX 10.12.5 Sierra
+1. MATLAB - Tested in MATLAB version 2017a with OSX 10.12.5 Sierra
 
 2. Function `rm_spirals.m`, a MATLAB implementation of the Rogers-McCulloch model in two dimensions (2-D) from [Rogers-McCulloch repo](https://github.com/ashikagah/Rogers-McCulloch).
 
